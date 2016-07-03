@@ -50,14 +50,12 @@
 
     <distributionManagement>
         <repository>
-            <id>sonatype-nexus-release</id>
-            <name>Sonatype release repository</name>
-            <url>${sonatype.repo.url}/service/local/staging/deploy/maven2/</url>
+            <id>unvus-releases</id>
+            <url>http://repo2.unvus.com/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshot</id>
-            <name>Sonatype snapshot repository</name>
-            <url>${sonatype.repo.url}/content/repositories/snapshots/</url>
+            <id>unvus-snapshots</id>
+            <url>http://repo2.unvus.com/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
