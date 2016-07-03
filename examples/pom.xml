@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.subtlelib</groupId>
         <artifactId>poi.builder.parent</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
+        <version>1.0.4-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -16,7 +16,7 @@
     <url>https://github.com/subtlelib/poi</url>
 
     <properties>
-        <joda.time.version>2.3</joda.time.version>
+        <joda.time.version>2.9.2</joda.time.version>
     </properties>
 
     <dependencies>
